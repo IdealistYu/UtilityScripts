@@ -36,7 +36,7 @@ echo
 # Upgrade only the specified casks
 print_section_header "Upgrading Casks"
 for cask in $outdated_casks; do
-  brew upgrade --cask $cask
+  brew upgrade --cask "$cask"
 done
 echo
 
